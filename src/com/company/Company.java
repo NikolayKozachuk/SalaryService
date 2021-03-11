@@ -7,6 +7,7 @@ public class Company implements SalaryService {
     private double budget;
     private ArrayList<Employee> employees;
     private String shortName;
+    private String shortName2;
 
     public Company(String name, double budget, ArrayList<Employee> employees) {
         this.name = name;
